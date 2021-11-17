@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Mono&display=swap");
+/* Variables */
+:root {
+   --clr-primary: hsl(225, 100%, 94%);
+   --clr-secondary: hsl(245, 75%, 52%);
+   --clr-neutral-clear: hsl(225, 100%, 98%);
+   --clr-neutral-mid: hsl(224, 23%, 55%);
+   --clr-neutral-dark: hsl(223, 47%, 23%);
+}
+
+/* Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Red Hat Display", sans-serif;
+   background: url("../images/pattern-background-desktop.svg") top center/100%
+      no-repeat var(--clr-primary);
+   height: 100vh;
+   display: flex;
+}
+
+/* Utility */
+.text-center {
+   text-align: center;
+}
+.text-clear {
+   color: var(--clr-neutral-mid);
+}
+.text-dark {
+   color: var(--clr-neutral-dark);
+}
+.text-bold {
+   font-weight: 700;
+}
+.text-bolder {
+   font-weight: 900;
+}
+.ft16 {
+   font-size: 16px;
+}
+.ft14 {
+   font-size: 14px;
+}
+
+.py-1 {
+   padding: 1rem 0;
+}
+
+.my-1 {
+   margin: 1.5rem 0;
+}
+
+.btn {
+   width: 100%;
+   background: var(--clr-secondary);
+   border: none;
+   text-align: center;
+   padding: 1rem 2rem;
+   color: var(--clr-neutral-clear);
+   border-radius: 10px;
+   box-shadow: 0 10px 20px rgba(0, 0, 255, 0.2);
+}
+/* CSS */
+.component {
+   margin: auto;
+   max-width: 450px;
+   padding: 1.5rem;
+   box-sizing: content-box;
+}
+
+.inside {
+   display: flex;
+   flex-direction: column;
+   border-radius: 20px;
+   overflow: hidden;
+}
+
+.inside img {
+   width: 100%;
+}
+
+.container {
+   padding: 1.75rem 1.5rem;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.container h1 {
+   font-size: 1.25rem;
+}
+.container p {
+   font-size: 16px;
+   line-height: 1.6;
+}
+
+.plan {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   background: var(--clr-neutral-clear);
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.plan img,
+.plan a {
+   flex: 1;
+   padding: 1rem;
+}
+.plan a {
+   font-size: 0.75rem;
+   padding: 0 1rem 0 0;
+}
+.plan div {
+   font-size: 0.85rem;
+   flex: 2;
+}
+
+.attribution {
+   margin-top: 1rem;
+}
