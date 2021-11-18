@@ -44,6 +44,7 @@ body {
 }
 .ft14 {
    font-size: 14px;
+   text-decoration: none;
 }
 
 .py-1 {
@@ -64,6 +65,7 @@ body {
    color: var(--clr-neutral-clear);
    border-radius: 10px;
    box-shadow: 0 10px 20px rgba(0, 0, 255, 0.2);
+   cursor: pointer;
 }
 /* CSS */
 .component {
