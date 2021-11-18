@@ -60,6 +60,7 @@ body {
    border: none;
    text-align: center;
    padding: 1rem 2rem;
+   font-size: clamp(0.85rem,3vw,1.25rem);
    color: var(--clr-neutral-clear);
    border-radius: 10px;
    box-shadow: 0 10px 20px rgba(0, 0, 255, 0.2);
@@ -91,10 +92,10 @@ body {
    align-items: center;
 }
 .container h1 {
-   font-size: 1.25rem;
+   font-size: clamp(1.25rem,4vw,2rem);
 }
 .container p {
-   font-size: 16px;
+   font-size: clamp(16px,2vw,20px);
    line-height: 1.6;
 }
 
@@ -113,11 +114,11 @@ body {
    padding: 1rem;
 }
 .plan a {
-   font-size: 0.75rem;
+   font-size: clamp(0.75rem,2vw,1rem);
    padding: 0 1rem 0 0;
 }
 .plan div {
-   font-size: 0.85rem;
+   font-size: clamp(0.85rem,2vw,1rem);
    flex: 2;
 }
 
